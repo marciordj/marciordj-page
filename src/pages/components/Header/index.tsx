@@ -16,10 +16,10 @@ const Header = () => {
           </nav>
 
           <div>
-            <a href="#">
+            <a href="https://github.com/marciordj" target="_blank" rel="noreferrer">
               <FaGithub />
             </a>
-            <a href="#">
+            <a href="https://www.linkedin.com/in/marciordj/" target="_blank" rel="noreferrer">
               <FaLinkedin />
             </a>
           </div>
