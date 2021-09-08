@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaGithub, FaLinkedin } from 'react-icons/fa'
 
 import style from './style.module.scss';
 
@@ -15,8 +16,12 @@ const Header = () => {
           </nav>
 
           <div>
-            <a href="#">Icon1</a>
-            <a href="#">Icon2</a>
+            <a href="#">
+              <FaGithub />
+            </a>
+            <a href="#">
+              <FaLinkedin />
+            </a>
           </div>
         </div>
       </div>

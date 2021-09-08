@@ -26,6 +26,7 @@
 
   nav, div {
     display: flex;
+    align-items: center;
     a {
       color: var(--title);
 
@@ -33,6 +34,16 @@
         margin-left: 2rem;
       }
     }
+  }
+
+  svg {
+    width: 20px;
+    height: 20px;
+    color: var(--title)
+  }
+
+  svg:first-child {
+    margin-right: 1rem;
   }
 
 }
