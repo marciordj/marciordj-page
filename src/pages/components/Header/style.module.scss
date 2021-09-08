@@ -2,19 +2,37 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: red;
   height: 91px;
+
+  border-bottom: 1px solid var(--dark-blue);
 }
 
 .headerContent {
   display: flex;
   align-items: center;
-  background-color: yellow;
   width: 1210px;
+
+  h2 {
+    color: var(--title)
+  }
 }
 
-.sections {
+.contentContainer {
   display: flex;
+  justify-content: space-between;
   margin-left: 54px;
-  // flex-direction: row;
+  width: 83%;
+
+
+  nav, div {
+    display: flex;
+    a {
+      color: var(--title);
+
+      & + a {
+        margin-left: 2rem;
+      }
+    }
+  }
+
 }

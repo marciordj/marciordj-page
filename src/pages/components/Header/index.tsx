@@ -8,10 +8,17 @@ const Header = () => {
       <div className={style.headerContent}>
         <h2>marciordj</h2>
 
-        <nav className={style.sections}>
-          <p>Home</p>
-          <p>Post</p>
-        </nav>
+        <div className={style.contentContainer}>
+          <nav>
+            <a href="#">Home</a>
+            <a href="#">Post</a>
+          </nav>
+
+          <div>
+            <a href="#">Icon1</a>
+            <a href="#">Icon2</a>
+          </div>
+        </div>
       </div>
     </div>
   )
